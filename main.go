@@ -39,7 +39,7 @@ func calculateBalance(transactions []float64) float64{
 
 	for _, value := range transactions {
 
-		balance += value
+		balance += value // Добавляем значение value к balance
 
 	}
 
